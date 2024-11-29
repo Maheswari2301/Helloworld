@@ -41,6 +41,18 @@
           <version>3.0.2</version>
         </plugin>
         <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-jar-plugin</artifactId>
+      <version>3.1.0</version>
+      <configuration>
+        <archive>
+          <manifestEntries>
+            <Main-Class>com.example.Main</Main-Class> <!-- Replace with your main class -->
+          </manifestEntries>
+        </archive>
+      </configuration>
+    </plugin>
+        <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
         </plugin>
