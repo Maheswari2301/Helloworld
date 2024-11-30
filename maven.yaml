@@ -35,8 +35,7 @@ maven:
           version: "3.8.0"
         - artifactId: "maven-surefire-plugin"
           version: "2.22.1"
-        - artifactId: "maven-jar-plugin"
-          version: "3.0.2"
+        
         - artifactId: "maven-install-plugin"
           version: "2.5.2"
         - artifactId: "maven-deploy-plugin"
